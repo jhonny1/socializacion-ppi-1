@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /poli/api/v2
+  port: 9080
+spring:
+  application:
+    name: usuarios-app
+  profiles:
+    active: dev
