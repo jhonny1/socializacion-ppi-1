@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdb:postgres://ec2-54-160-200-167.compute-1.amazonaws.com:5432/def4iuo1q6dhss
+    url: jdbc:postgresql://ec2-54-160-200-167.compute-1.amazonaws.com:5432/def4iuo1q6dhss
 
     driver-class-name: org.postgresql.Driver
     username: svkyrpivlejymc
@@ -11,4 +11,4 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
