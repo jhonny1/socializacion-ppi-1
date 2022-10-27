@@ -27,9 +27,6 @@ public class UsuarioController {
 
 
 
-            if(Objects.isNull(usuario)){
-                throw new UsuarioException("Usuario eliminado ok ", HttpStatus.NOT_FOUND);
-            }
 
 
         return usuarioService.save(usuario);
