@@ -25,7 +25,7 @@ public class UsuarioController {
     @PostMapping
     public Usuario save(@RequestBody Usuario usuario) {
 
-
+              usuario.setActivo(equals(false));
 
 
 
