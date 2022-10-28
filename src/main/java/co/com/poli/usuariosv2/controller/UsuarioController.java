@@ -29,6 +29,7 @@ public class UsuarioController {
 
 
 
+
         return usuarioService.save(usuario);
     }
 
@@ -39,6 +40,9 @@ public class UsuarioController {
 
         return usuarioService.findAll();
     }
+
+
+
 
     @DeleteMapping("/{id_us}")
     public ResponseEntity<?> deleteUsuarioById(@PathVariable("id_us")Integer id_us){
